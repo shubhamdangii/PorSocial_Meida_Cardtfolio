@@ -1,0 +1,78 @@
+body {
+  background-image: url(pexels-kseverin-1542252.jpg);
+  background-size: cover;
+  font-family: "Teachers", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.main-card {
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    margin : auto;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    background-size: cover; /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.771);
+    text-align: center;
+}
+
+.card-body{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0;
+    padding: 0;   
+}
+
+h4{
+    margin: 0;
+    /* padding: 0; */
+}
+
+h6{
+    margin: 20px;
+    /* padding: 0; */
+}
+
+.card-nav img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: -15px;
+} 
+
+.card-footer-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-footer-btn button{
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid rgba(0, 0, 0, 0.384);
+}
+
+.social-media-icon a img{
+    /* display: flex; */
+    height: 30px;
+    
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.social-media-icon a{
+    display: inline-flex;
+    /* justify-content:s; */
+    /* margin: auto; */
+    margin: 10px 20px 10px 20px;
+}
